@@ -1,0 +1,10 @@
+[package]
+name = "dnn"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+ndarray = { version = "0.16.1", features = ["serde"] }
+polars = { version = "0.29.0", features = ["lazy"] }
+rand = "0.8.5"
+num-integer = "0.1.45"
